@@ -1,0 +1,65 @@
+.noteCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    position: relative;
+    transition: transform 0.1s;
+}
+
+.noteCard:hover {
+    transform: scale(1.01);
+}
+
+.noteTitle {
+    margin: 0 0 10px 0;
+}
+
+.noteContent {
+    margin: 0 0 10px 0;
+    color: #555;
+}
+
+.button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+}
+
+.editButton {
+    background-color: #2196F3;
+}
+
+.deleteButton {
+    background-color: #f44336;
+}
+
+.saveButton {
+    background-color: #4CAF50;
+}
+
+.cancelButton {
+    background-color: #f44336;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
