@@ -1,5 +1,7 @@
 # Notes App — Full Stack (MERN)
 
+![App Screenshot](assets/screenshot.png)
+
 A full-stack notes application built with **Node.js, Express, MongoDB, and React (Vite)**.
 The app provides a simple REST API and a React frontend for creating, editing, and deleting notes with persistent storage.
 
@@ -39,16 +41,20 @@ The app provides a simple REST API and a React frontend for creating, editing, a
 ```
 .
 ├── server
-│   ├── controllers
-│   ├── models
-│   ├── routes
-│   ├── config
-│   └── src/server.js
+│   ├── src
+    │   ├── config
+    │   ├── controllers
+    │   ├── models
+    │   ├── routes
+    │   ├── app.js
+    │   └── server.js
+    └── package.json
 │
 └── client
     ├── src
     │   ├── api
     │   ├── components
+    │   ├── pages
     │   └── App.jsx
     └── package.json
 ```
