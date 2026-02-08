@@ -138,4 +138,4 @@ http://localhost:5173
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
